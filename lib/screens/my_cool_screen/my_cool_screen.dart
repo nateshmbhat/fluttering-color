@@ -11,7 +11,6 @@ class MyCoolScreen extends StatefulWidget {
 
 class _MyCoolScreenState extends State<MyCoolScreen> {
 
-  @override
   Widget build(BuildContext context) {
     MyCoolScreenBloc bloc = BlocProvider.of<MyCoolScreenBloc>(context);
 
